@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+}
+
+body {
+    justify-content: center;
+    display: flex;
+    overflow: hidden;
+}
+
+.login {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.dados {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(3, 3, 49);
+}
+
+.dados input {
+    margin-bottom: 20px;
+    width: 400px;
+    padding: 10px;
+    border: 1px solid rgba(179, 178, 178, 0.651);
+    border-radius: 8px;
+}
+
+.dados label {
+    align-self: start;
+}
+
+.password-wrapper {
+    position: relative;
+  }
+  
+.password-toggle-icon {
+    position: absolute;
+    top: 35%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color:  rgba(179, 178, 178, 0.651) ;
+} 
+.buttons input {
+    width: 400px;
+    padding: 10px;
+    border: 1px solid rgba(178, 178, 179, 0.651);
+    border-radius: 8px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+#btn-entrar {
+    color: rgb(236, 247, 255);
+    background: rgb(3, 3, 49);
+}
+
+#btn-cadastro {
+    color: rgb(3, 3, 49);
+    background: rgb(236, 247, 255);
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    color: rgb(3, 3, 49);
+}
+a{
+    color:rgb(3, 3, 49);
+}
+.imagem {
+    justify-content: right;
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagem img {
+    object-fit: cover;
+    width: 50vw;
+    height: 100vh;
+}
+
+
+@media (max-width: 830px) and (max-height: 880px) {
+
+    .dados input {
+        margin-bottom: 20px;
+        width: 200px;
+        padding: 10px;
+        border: 1px solid rgba(179, 178, 178, 0.651);
+        border-radius: 8px;
+    }
+    .buttons input {
+        width: 200px;
+        padding: 10px;
+        border: 1px solid rgba(178, 178, 179, 0.651);
+        border-radius: 8px;
+        margin-bottom: 15px;
+        cursor: pointer;
+    }
+    
+  }
+@media (max-width: 440px) and (max-height: 880px) {
+
+    .dados input {
+        margin-bottom: 20px;
+        width: 100px;
+        padding: 10px;
+        border: 1px solid rgba(179, 178, 178, 0.651);
+        border-radius: 8px;
+    }
+    .buttons input {
+        width: 100px;
+        padding: 10px;
+        border: 1px solid rgba(178, 178, 179, 0.651);
+        border-radius: 8px;
+        margin-bottom: 15px;
+        cursor: pointer;
+    }
+    
+  }

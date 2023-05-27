@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-......................" crossorigin="anonymous"> <!-- Link para o FontAwesome -->
+    <title>Document</title>
+</head>
+<body>
+    <section class="login"> 
+
+    <div class="dados">
+
+        <label for="cpf">CPF</label>
+        <input type="text" name="Cpf" placeholder="Digite seu Cpf">
+
+        <label for="senha">Senha</label>
+        <div class="password-wrapper">
+            <input type="password" name="Senha" placeholder="•••••••">
+            <div class="password-toggle-icon-wrapper">
+                <i class="password-toggle-icon fas fa-eye-slash" onclick="togglePasswordVisibility()"></i>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="buttons">
+
+        <input type="button" id="btn-entrar" value="Entrar">
+        <input type="button" id="btn-cadastro" value="Cadastre-se">
+
+    </div>    
+        
+        <p>Esqueceu a sua senha ? <a href="">Redefina sua senha</a></p>
+
+    </section>
+    <section class="imagem">    
+
+        <img src="./assets/cidade.png" alt="imagem da terra vista do espaço">
+
+    </section>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
